@@ -1,0 +1,54 @@
+.container{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 3em;
+    border-radius: 40px;
+    width: 30%;
+    height: 40%;
+}
+
+.value-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    background: none;
+}
+
+.count-values h3, p{
+    display: inline-block;
+}
+
+.count-values p{
+    color: #e49723;
+    font-weight: bold;
+}
+
+.count-values h3{
+    margin-right: 2em;
+}
+
+label{
+    font-size: large;
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+
+.calculator{
+    position: relative;
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp5034452.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
