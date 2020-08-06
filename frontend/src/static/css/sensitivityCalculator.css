@@ -1,8 +1,8 @@
 .container{
     position: relative;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 10%;
+    transform: translateY(-50%);
     background-color: white;
     padding: 3em;
     border-radius: 40px;
@@ -47,8 +47,28 @@ label{
 .calculator{
     position: relative;
     height: 100vh;
-    background-image: url('https://wallpapercave.com/wp/wp5034452.jpg');
+    background-image: linear-gradient(-135deg, black, grey);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
+}
+
+
+.text-container h1, p{
+    position: absolute;
+}
+
+.text-container h1{
+    right: 15%;
+    top: 20%;
+    color: #e49723;
+}
+
+.text-container p{
+    width: 30%;
+    color: white;
+    right: 10%;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 1.5em;
 }
